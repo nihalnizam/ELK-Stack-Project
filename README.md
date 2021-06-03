@@ -41,6 +41,11 @@ This document contains the following details:
 
 # Description of the Topology
  
+ 
+ ![image](https://user-images.githubusercontent.com/74993121/120721930-6e51f180-c494-11eb-8ab3-fcf2bead621f.png)
+
+ 
+ 
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 Load balancing ensures that the application will be highly available, in addition to restricting inbound access to the network. Additionally, the load balancer makes sure that no single server has too much traffic to handle, and it works to process incoming traffic that will be shared by both vulnerable web servers. The Access controls will ensure that only authorized users (ourselves) will be able to connect in the first place.  
@@ -59,12 +64,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 | Name         | Function           | IP Address | OS    |   
-|--------------|--------------------|------------|-------|---|
 | Jump Box     | Gateway            | 10.0.0.4   | Linux |   
 | DVWA1        | Web Server         | 10.0.0.5   | Linux |   
 | DVWA2        | Web Server         | 10.0.0.6   | Linux |   
 | Redundant VM | Redundancy Testing | 10.0.0.8   | Linux |   
 | ELK-Server        | Monitoring        | 10.1.0.4 | Linux |   
+
+
 
 Additionally, Azure has provisioned a load balancer in front of all machines except for the Jump Box. The Load Balancer’s targets are organized by the following Availability Zones: 
 
@@ -143,36 +149,23 @@ To use the playbooks, we must perform the following steps:
 
 The easiest way to copy the playbooks is to use Git:
 
-"$ cd /etc/ansible
-$ mkdir files
-  Clone Repository + IaC Files
-$ git clone https://github.com/yourusername/project-1.git
- Move Playbooks and hosts file Into `/etc/ansible`
-$ cp project-1/playbooks/* .
-$ cp project-1/files/* ./files
-"
+
+![image](https://user-images.githubusercontent.com/74993121/120722096-bf61e580-c494-11eb-9481-03d1b0ed23c4.png)
+
+
 
 This copies the playbook files to the correct place.
 Next, you must create a hosts file to specify which VMs to run each playbook on. Run the commands below:
 
-$ cd /etc/ansible
-$ cat > hosts <<EOF
-[webservers]
-10.0.0.5
-10.0.0.6
 
-[elk]
-10.0.0.8
-EOF
+![image](https://user-images.githubusercontent.com/74993121/120722113-cd176b00-c494-11eb-90ad-681139c45d5e.png)
 
 
 
 After this, the commands below run the playbook:
 
-$ cd /etc/ansible
-$ ansible-playbook install_elk.yml elk
-$ ansible-playbook install_filebeat.yml webservers
-$ ansible-playbook install_metricbeat.yml webservers
+
+![image](https://user-images.githubusercontent.com/74993121/120722139-dc96b400-c494-11eb-8310-2171b1e27d13.png)
 
 
 
