@@ -1,0 +1,43 @@
+usernames for project: 
+
+ssh key: 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7Eqzzt7+v9N1kTdkbnOlbaZbF09RzuURWlkLzFrocTNfZKftfbX0E+9sO1ZDR+CvsO0UJ5TPTbay8tPHeJciwLWONiD54B4OKaNEWuFvGXpXlABlg0kH7y77Kku4bXgfzVc9xoD5xOyGl3egRepKmJZj1hDwI9wm/ll9ygCLA/0vpDj+rQ0je0qFTl1ukyA2zSHpb5hLFEwmNRQ/D9fZyWZvTG4Hcgh2tjiRVarZRujz8RtxeIlPMBLK2qH+lXdZyksTkNrYeIK6XDnVec/3ZRNfhgrwzf1CpJrcDYg9pM/jYnqOth2unuSAV6vkeRBuxxA9vyYqDVNDz33wakooNWJo0x8/+MFVmwwpyses760rAt/N41+qjpU0hcfae9XSVzBCxXfwB3f8R2OKn0usYaMj3wY3zJih+S7myElE2/FFoX5LgzQ9YRBFQgGg8YfvAsjLPxtjX+p02HgTh5q3SiWDYXQ0d8QvsO6/jXACG1iaGk3JQTK3tL1hZ8KQZygs= nihal@DESKTOP-46GL04F
+
+
+
+
+Jump Box Provisioner: 
+
+"jumpadmin"
+
+
+Web-1:
+"jumpadmin"
+
+Web-2:
+"jumpadmin"
+
+
+
+
+NEW key from Ansible container: 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDePnn/NDfzfeGUbsvJga50flHF5F+wDN2mFGz8CZPN7KS6XEJbixqVKUHsa19wlvkRg4hFEUGJzY/+HaHiHwyWHMiLQ18X0GnYQ/xGzCe1GIEg0YjOSQ9tUV9aAKoER9xc6slR2E4VGFuzxmrFEuA09rFTHFTiFXTgrGeSvL6/H9Er/qmkj+qYH9pELX4W1uQdxV3nUPkXt3/UYqcOF7w5YMe8hBZkJNRtbBTyDUQFNws4IO8MCe+/GGZQT5KhLphrT417LtBktVMWlEkJoNNbpeMkL7r4JcsA8jlfsEnVRSnTiGVhn7ihsEOsGxg/yyGBEopx/iI+kPsIVeB7bep3 root@7da54f4c31dd
+
+
+docker container name: 
+
+" objective_engelbart"
+
+
+
+
+
+Web-3:
+
+"ansible"
+
+
+
+
