@@ -169,7 +169,7 @@ After this, the commands below run the playbook:
 
 
 
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to the Filebeat installation page to check that the installation worked as expected.
 To verify success, wait five minutes to give ELK time to start up.
 Then, run: curl http://10.0.0.8:5601. This is the address of Kibana. If the installation succeeded, this command should print HTML to the console.
 
