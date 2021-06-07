@@ -2,8 +2,7 @@
 Configuring an ELK stack server in order to set up a cloud monitoring system.
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured below. Alternatively, select portions of the README file may be used to install only certain pieces of it, such as Filebeat.
-  (/Ansible/ansibleplaybook_filebeat.txt)
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured below. 
 
 
 
