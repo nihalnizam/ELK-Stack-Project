@@ -115,7 +115,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Images/Successful Elk ansible playbook.png
+
+![image](https://user-images.githubusercontent.com/74993121/121077473-48329700-c79d-11eb-9480-c152a3d62af9.png)
 
 
 
