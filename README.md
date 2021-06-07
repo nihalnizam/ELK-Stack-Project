@@ -83,7 +83,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the JUMPBOX machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
--  64.72.118.76 
+-  *Given Workstation Ip Address)
    (Your answer will be different here! Use the ip address given to you)
 Machines within the network can only be accessed by each other!
 - The DVWA1 and DVWA2 VMs send traffic to the ELK Server
@@ -93,7 +93,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 64.72.118.76   |
+| Jump Box | Yes/No              |    |    Workstation IP Address
 |    ELK      |      No               |     10.0.0.1-254                 |
 |    DVWA 1      |       No              |          10.0.0.1-254            |
 |    DVWA 2      |         No            |         10.0.0.1-254             |
